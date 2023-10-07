@@ -4,14 +4,9 @@
   box-sizing: border-box;
 }
 
-body {
-  border: 1px solid #9a93ff;
-}
-
 header {
   display: flex;
   justify-content: space-evenly;
-  /* border: 1px solid #9a93ff; */
   align-items: center;
 }
 
