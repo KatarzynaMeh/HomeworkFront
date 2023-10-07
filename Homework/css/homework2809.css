@@ -4,30 +4,34 @@
   box-sizing: border-box;
 }
 
+body {
+  border: 1px solid #9a93ff;
+}
+
 header {
   display: flex;
   justify-content: space-evenly;
-  border: 1px solid #9A93FF;
+  /* border: 1px solid #9a93ff; */
+  align-items: center;
 }
 
 button {
   border: none;
-  margin: 7vh 0;
   color: var(--Pure-white, #fff);
   font-family: Dosis;
   font-size: 18px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
-  background: #ADA7FF;
+  background: #ada7ff;
   border-radius: 50px;
   text-align: center;
-  padding: 15px 50px;
+  padding: 20px 50px;
 }
 
 nav {
   display: inline;
-  margin: 8vh 0 7vh; 
+  margin: 8vh 0 7vh;
   padding: 1vh 0 2vh 0;
   text-align: center;
 }
@@ -40,8 +44,98 @@ li {
 }
 
 li {
-  width: 100px;
+  width: 125px;
   color: #000;
+  font-family: Dosis;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.logo {
+  width: 7vh;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.section-cintainer {
+  position: absolute;
+  width: 66vw;
+  height: 70vh;
+  display: flex;
+  top: 27%;
+  left: 17%;
+}
+
+.text-container {
+  width: 37vw;
+}
+
+.h1-style {
+  color: var(--Heading-Color, #302b3a);
+  font-family: Dosis;
+  font-size: 95px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  padding: 10% 0 4% 0;
+}
+
+.h1-style-span {
+  color: var(--Buttton-Color, #ada7ff);
+}
+
+.lorem-text {
+  width: 36vw;
+  color: #404040;
+  font-family: Dosis;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-bottom: 5%;
+}
+
+.button-container {
+  display: flex;
+  padding-bottom: 5%;
+}
+
+.button-paw {
+  margin-right: 40px;
+  position: relative;
+  width: 13.5vh;
+  height: 4.5vh;
+}
+
+.button-paw-span {
+  position: absolute;
+  left: 2vh;
+  top: 1.3vh;
+}
+
+.img-button-dog {
+  width: 3vh;
+  position: absolute;
+  right: 1.5vh;
+  top: 0.7vh;
+}
+
+.buttom-play {
+  display: flex;
+  align-items: center;
+}
+
+.img-play-button {
+  margin-right: 10px;
+}
+
+.video-p {
+  color: var(--Buttton-Color, #ada7ff);
   font-family: Dosis;
   font-size: 18px;
   font-style: normal;
@@ -49,10 +143,53 @@ li {
   line-height: normal;
 }
 
-#colorHome{
-    color: #9A93FF;
+.info-site-container {
+  display: flex;
+  width: 25vw;
+  justify-content: space-between;
 }
 
-.logo {
-  width: 8vh;
+.p-style-content {
+  color: var(--Heading-Color, #302b3a);
+  font-family: Dosis;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 650;
+  line-height: normal;
+  padding-bottom: 3%;
+}
+
+.p-style-down {
+  color: var(--Paragraph, #686868);
+  font-family: Dosis;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.img-dog {
+  position: absolute;
+  right: 0;
+  width: 18vw;
+}
+
+.logo-up-dog {
+  position: absolute;
+  right: 43%;
+  width: 4vw;
+}
+
+.img-cat {
+  position: absolute;
+  right: 11%;
+  bottom: 1%;
+  width: 25vw;
+}
+
+.logo-down-cat {
+  position: absolute;
+  right: 0;
+  bottom: 10%;
+  width: 4vw;
 }
